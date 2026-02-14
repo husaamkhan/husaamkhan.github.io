@@ -1,0 +1,17 @@
+url: "https://husaamkhan.com"
+baseurl: ""
+
+collections:
+  gameboy_blog:
+    output: true
+    permalink: /blog/gameboy-color-emulator/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "gameboy_blog"
+    values:
+      layout: "post"
+      blog: "gameboy-color-emulator"
+
+markdown: kramdown
